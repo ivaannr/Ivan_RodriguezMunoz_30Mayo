@@ -7,7 +7,10 @@ public class GestionLibros {
     private static int contador = 0;
 
     /**
-     * Método main
+     * Método main que añade 3 libros al array, printa el total de libros
+     * Busca un libro con el método añadirLibro(), luego, si el índice
+     * es distinto de -1 printa que se ha encontrado el libro en el índice
+     * y muestra el libro, en el caso contrario printa: "Libro no encontrado".
      * @param args
      */
     public static void main(String[] args) {
